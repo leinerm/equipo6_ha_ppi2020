@@ -1,0 +1,121 @@
+#contenedor5 {
+    width: 320px;
+    height: 611px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;  
+    font-family: 'Times New Roman', Times, serif;
+}
+#contenedorcito3 {
+    width: 320px;
+    height: 491px;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px; 
+    border: 1px solid blue;
+}
+@media (min-width: 750px){
+    #contenedor5 {
+        width: 730px;
+        height: 480px;
+        background-color: blue;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito3 {
+        width: 730px;
+        height: 480px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+@media (min-width: 1000px){
+    #contenedor5 {
+        width: 980px;
+        height: 480px;
+        background-color: blue;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito3 {
+        width: 980px;
+        height: 480px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+@media (min-width: 1126px){
+    #contenedor5 {
+        width: 1330px;
+        height: 480px;
+        background-color: blue;
+        margin-top: 7px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito3 {
+        width: 1330px;
+        height: 480px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+#Constitucionales{
+    color: white;
+    text-align: center;
+    line-height: 120px;
+   
+}
+#espacio{
+    text-align: center;
+    line-height: 80px;
+    color: black;
+}
+
+#Card1{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid rgb(21, 255, 0);
+    border-radius: 5px;
+}
+#Card2{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 1px solid rgb(255, 17, 0);
+    border-radius: 5px;
+}
+#btnregre3{
+    display:block;
+    margin:auto;
+    width: 100px;
+    margin-top: 60px;
+
+}

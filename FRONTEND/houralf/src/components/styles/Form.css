@@ -1,0 +1,92 @@
+#contenedor2 {
+    width: 320px;
+    height: 620px;
+    background-color: rgb(209, 252, 248);
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 255, 234);
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+@media (min-width: 750px) { 
+#contenedor2{
+    width: 730px;
+    height: 610px;
+    background-color: rgb(209, 252, 248);
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 255, 234);
+    font-family: 'Times New Roman', Times, serif;
+}
+ }
+ @media (min-width: 1000px){
+    #contenedor2{
+        width: 980px;
+        height: 610px;
+        background-color: rgb(209, 252, 248);
+        margin-top: 7px;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid rgb(0, 255, 234);
+        font-family: 'Times New Roman', Times, serif;
+    }
+ }
+ @media (min-width: 1126px){
+    #contenedor2{
+        width: 1350px;
+        height: 610px;
+        background-color: rgb(209, 252, 248);
+        margin-top: 7px;
+        margin-bottom: 5px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid rgb(0, 255, 234);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #formulario_login{
+        background-color: rgb(209, 252, 248);
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+       
+    }
+ }
+
+
+#formulario_login{
+    background-color: rgb(209, 252, 248);
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+   
+}
+#imgus{
+line-height: 200px;
+display:block;
+margin:auto;
+width: 200px;
+height: 200px;
+border-radius: 100px;
+}
+#ines{
+    color: blue;
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+#btnregre6{
+    display:block;
+    margin:auto;
+    margin-top: 40px;
+    width: 100px;
+}

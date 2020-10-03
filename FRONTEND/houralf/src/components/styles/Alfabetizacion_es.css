@@ -1,0 +1,260 @@
+#contenedor04 {
+    width: 320px;
+    height: 280px;
+    background-color: blue;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;  
+    font-family: 'Times New Roman', Times, serif;
+}
+#contenedorcito02 {
+    width: 320px;
+    height: 200px;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px; 
+    border: 1px solid blue;
+}
+@media (min-width: 750px){
+    #contenedor04 {
+        width: 730px;
+        height: 280px;
+        background-color: blue;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito02 {
+        width: 730px;
+        height: 220px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+@media (min-width: 1000px){
+    #contenedor04 {
+        width: 980px;
+        height: 280px;
+        background-color: blue;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito02 {
+        width: 980px;
+        height: 220px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+@media (min-width: 1126px){
+    #contenedor04 {
+        width: 1330px;
+        height: 280px;
+        background-color: blue;
+        margin-top: 4px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito02 {
+        width: 1330px;
+        height: 220px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+#alfabetizacion_es{
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+#espacio_es{
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+
+#Card01{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    border: 1px solid rgb(21, 255, 0);
+    border-radius: 5px;
+}
+#Card02{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 1px solid rgb(255, 17, 0);
+    border-radius: 5px;
+}
+#btnregre02{
+    display:block;
+    margin:auto;
+    width: 100px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+#contenedor005 {
+    width: 320px;
+    height: 260px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;  
+    font-family: 'Times New Roman', Times, serif;
+}
+#contenedorcito003 {
+    width: 320px;
+    height: 220px;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px; 
+    border: 1px solid blue;
+}
+@media (min-width: 750px){
+    #contenedor005 {
+        width: 730px;
+        height: 280px;
+        background-color: blue;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito003 {
+        width: 730px;
+        height: 220px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+@media (min-width: 1000px){
+    #contenedor005 {
+        width: 980px;
+        height: 280px;
+        background-color: blue;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito003 {
+        width: 980px;
+        height: 220px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+@media (min-width: 1126px){
+    #contenedor005 {
+        width: 1330px;
+        height: 280px;
+        background-color: blue;
+        margin-top: 7px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito003 {
+        width: 1330px;
+        height: 220px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+#Constitucionales_c{
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+   
+}
+#espacio_c{
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+
+#Card001{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border: 1px solid rgb(21, 255, 0);
+    border-radius: 5px;
+}
+#Card002{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 1px solid rgb(255, 17, 0);
+    border-radius: 5px;
+}
+#btnregre003{
+    display:block;
+    margin:auto;
+    width: 100px;
+    margin-top: 22px;
+}
+#suma{
+    width: 30px;
+    height: 30px;
+    border: 0px;
+}
+#sumar{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;    
+}

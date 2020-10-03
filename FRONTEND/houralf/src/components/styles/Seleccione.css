@@ -1,0 +1,29 @@
+#contenedor8{
+width: 300px;
+height: 350px;
+border: 2.5px solid turquoise;
+border-radius: 15px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 150px;
+font-family: 'Times New Roman', Times, serif;
+}
+#tipous{
+    color: turquoise;
+    font-size: 20px;
+}
+#btnus{
+    display:block;
+    margin:auto;
+    margin-top: 30px;
+}
+#btnen{
+    display:block;
+    margin:auto;
+    margin-top: 25px;
+}
+#contbtn{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}

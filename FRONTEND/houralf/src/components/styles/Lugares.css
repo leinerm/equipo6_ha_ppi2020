@@ -1,0 +1,109 @@
+#contenedor6 {
+    width: 320px;
+    height: 611px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;  
+    font-family: 'Times New Roman', Times, serif;
+}
+#contenedorcito4 {
+    width: 320px;
+    height: 491px;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px; 
+    border: 1px solid blue;
+}
+@media (min-width: 750px){
+    #contenedor6 {
+        width: 730px;
+        height: 480px;
+        background-color: blue;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito4 {
+        width: 730px;
+        height: 480px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+@media (min-width: 1000px){
+    #contenedor6 {
+        width: 980px;
+        height: 480px;
+        background-color: blue;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito4 {
+        width: 980px;
+        height: 480px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+@media (min-width: 1126px){
+    #contenedor6 {
+        width: 1330px;
+        height: 480px;
+        background-color: blue;
+        margin-top: 7px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;  
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #contenedorcito4 {
+        width: 1330px;
+        height: 480px;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 15px;
+        border: 1px solid blue;  
+    }
+}
+#Lugares{
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    font-size: 30px;
+}
+#lugar{
+    text-align: center;
+    line-height: 80px;
+    color: black;
+}
+#cont_btn{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+#btnregre4{
+    display:block;
+    margin:auto;
+    width: 100px;
+    margin-top: 40px;
+}

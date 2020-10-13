@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/equipo6_ha_ppi2020/static/css/main.8e27bea1.chunk.css",
+    "main.js": "/equipo6_ha_ppi2020/static/js/main.9a1d0a62.chunk.js",
+    "main.js.map": "/equipo6_ha_ppi2020/static/js/main.9a1d0a62.chunk.js.map",
+    "runtime-main.js": "/equipo6_ha_ppi2020/static/js/runtime-main.f40da8a2.js",
+    "runtime-main.js.map": "/equipo6_ha_ppi2020/static/js/runtime-main.f40da8a2.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/equipo6_ha_ppi2020/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.4b13cedd.chunk.js": "/equipo6_ha_ppi2020/static/js/2.4b13cedd.chunk.js",
+    "static/js/2.4b13cedd.chunk.js.map": "/equipo6_ha_ppi2020/static/js/2.4b13cedd.chunk.js.map",
+    "index.html": "/equipo6_ha_ppi2020/index.html",
+    "precache-manifest.6c315dfa35f253e0ccb492b7ca9f4c68.js": "/equipo6_ha_ppi2020/precache-manifest.6c315dfa35f253e0ccb492b7ca9f4c68.js",
+    "service-worker.js": "/equipo6_ha_ppi2020/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/equipo6_ha_ppi2020/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.8e27bea1.chunk.css.map": "/equipo6_ha_ppi2020/static/css/main.8e27bea1.chunk.css.map",
+    "static/js/2.4b13cedd.chunk.js.LICENSE.txt": "/equipo6_ha_ppi2020/static/js/2.4b13cedd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f40da8a2.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.4b13cedd.chunk.js",
+    "static/css/main.8e27bea1.chunk.css",
+    "static/js/main.9a1d0a62.chunk.js"
+  ]
+}

@@ -34,7 +34,7 @@ function App() {
     <Route exact path="/Principal_en" component={Principal_en}/>
     <Route exact path="/Alerta" component={Alerta}/>
     <Route exact path="/Alerta_en" component={Alerta_en}/>
-    <Route exact path="/equipo6_ha_ppi2020/" component={Seleccionarus}/>
+    <Route exact path="/" component={Seleccionarus}/>
     <Route exact path="/Login_en" component={Login_en}/>
     <Route exact path="/Proceso_en" component={Estudiantes}/>
     <Route exact path="/Nuevo_us" component={Nuevo_estudiante}/>

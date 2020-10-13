@@ -35,7 +35,7 @@ function App() {
       <Route exact path="/equipo6_ha_ppi2020" component={Principal_en}/>
       <Route exact path="/equipo6_ha_ppi2020" component={Alerta}/>
       <Route exact path="/equipo6_ha_ppi2020" component={Alerta_en}/>
-      <Route exact path="/equipo6_ha_ppi2020" component={Seleccionarus}/>
+      <Route exact path="/equipo6_ha_ppi2020/" component={Seleccionarus}/>
       <Route exact path="/equipo6_ha_ppi2020" component={Login_en}/>
       <Route exact path="/equipo6_ha_ppi2020" component={Estudiantes}/>
       <Route exact path="/equipo6_ha_ppi2020" component={Nuevo_estudiante}/>

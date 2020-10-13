@@ -18,6 +18,7 @@ import My_Profile_en from './pages/Profile_en';
 import Estudiantes from './pages/Estudiantes';
 import Nuevo_estudiante from './pages/Nuevo_estudiante';
 import Sumar_H from './pages/Sumar_H';
+import Nuevo_L from './pages/Nuevo_Lugar';
 
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
       <Route exact path="/Proceso_en" component={Estudiantes}/>
       <Route exact path="/Nuevo_us" component={Nuevo_estudiante}/>
       <Route exact path="/Sumar" component={Sumar_H}/>
-  
+      <Route exact path="/Nuevo_lugar" component={Nuevo_L}/>
     </Router>
   );
 }

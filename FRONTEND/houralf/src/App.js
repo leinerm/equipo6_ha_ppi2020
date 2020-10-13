@@ -25,22 +25,22 @@ function App() {
   return (
     
     <Router>
-      <Route exact path="/Login" component={Login}/>
-      <Route exact path="/Alfabetizacion" component={Alfabetizacion}/>
-      <Route exact path="/Alfabetizacion_es" component={Alfabetizacion_es}/>
-      <Route exact path="/Constitucionales" component={Constitucionales}/>
-      <Route exact path="/Perfil" component={My_Profile}/>
-      <Route exact path="/Perfil_en" component={My_Profile_en}/>
-      <Route exact path="/Principal" component={Principal}/>
-      <Route exact path="/Principal_en" component={Principal_en}/>
-      <Route exact path="/Alerta" component={Alerta}/>
-      <Route exact path="/Alerta_en" component={Alerta_en}/>
-      <Route exact path="/" component={Seleccionarus}/>
-      <Route exact path="/Login_en" component={Login_en}/>
-      <Route exact path="/Proceso_en" component={Estudiantes}/>
-      <Route exact path="/Nuevo_us" component={Nuevo_estudiante}/>
-      <Route exact path="/Sumar" component={Sumar_H}/>
-      <Route exact path="/Nuevo_lugar" component={Nuevo_L}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Login}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Alfabetizacion}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Alfabetizacion_es}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Constitucionales}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={My_Profile}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={My_Profile_en}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Principal}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Principal_en}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Alerta}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Alerta_en}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Seleccionarus}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Login_en}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Estudiantes}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Nuevo_estudiante}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Sumar_H}/>
+      <Route exact path="/equipo6_ha_ppi2020" component={Nuevo_L}/>
     </Router>
   );
 }

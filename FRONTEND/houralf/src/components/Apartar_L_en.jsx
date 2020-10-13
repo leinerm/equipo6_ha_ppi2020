@@ -27,7 +27,7 @@ return(
 
 <div id="contenedorcito4">
 
-    <p id ="lugar">lugares</p>
+<Button id="lugar" variant="outline-primary" href='/Principal_en'> <img id="lugar_n" src="https://img.freepik.com/iconos-gratis/suma_318-10811.jpg?size=338&ext=jpg" alt="+"/> </Button>{' '}
 
    <div id="cont_btn">
     <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} >Secretaria</Button>{' '}

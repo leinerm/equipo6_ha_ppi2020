@@ -91,9 +91,13 @@
     font-size: 30px;
 }
 #lugar{
-    text-align: center;
-    line-height: 80px;
+    display:block;
+    margin:auto;
     color: black;
+    border-radius: 80px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 #cont_btn{
     width: 250px;
@@ -106,4 +110,8 @@
     margin:auto;
     width: 100px;
     margin-top: 40px;
+}
+#lugar_n{
+    width: 50px;
+    height: 50px;
 }

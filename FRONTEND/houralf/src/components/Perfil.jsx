@@ -5,7 +5,7 @@ import { Card, ListGroup, Button } from 'react-bootstrap';
 function Mi_Perfil() {
 
     return <div id="contenedor3">
-        <img id="uspe" src="https://w7.pngwing.com/pngs/831/88/png-transparent-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design-smile.png" alt="Foto" />
+        <img id="usper" src="https://w7.pngwing.com/pngs/831/88/png-transparent-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design-smile.png" alt="Foto" />
         <div id="contenedorcito">
             <h3>Información Personal</h3>
             <div id="Card">

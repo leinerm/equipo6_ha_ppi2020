@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button, Form, Col}  from 'react-bootstrap';
-import './styles/Nuevo.css';
+import './styles/Nuevo_es.css';
 import swal from 'sweetalert';
 
 function Nuevo_es(){
@@ -13,13 +13,13 @@ function Nuevo_es(){
     })
   }
 
-    return <div id="contenedor3">
+    return <div id="contenedor23">
     <img id="uspe" src="https://w7.pngwing.com/pngs/831/88/png-transparent-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design-smile.png" alt="Foto" />
-    <div id="contenedorcito">
+    <div id="contenedorcito23">
         <h3>Registro</h3>
         <div id="Form_nuevo">
 
-        <Form>
+        <Form >
   <Form.Row>
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label>Usuario</Form.Label>
@@ -31,6 +31,11 @@ function Nuevo_es(){
       <Form.Control type="password" placeholder="" />
     </Form.Group>
   </Form.Row>
+
+  <Form.Group controlId="formGridAddress1">
+    <Form.Label>Documento</Form.Label>
+    <Form.Control placeholder="" />
+  </Form.Group>
 
   <Form.Group controlId="formGridAddress1">
     <Form.Label>Nombre</Form.Label>

@@ -1,5 +1,5 @@
 #contenedor5 {
-    width: 320px;
+    width: 95%;
     height: 611px;
     background-color: blue;
     margin-top: 10px;
@@ -9,7 +9,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 #contenedorcito3 {
-    width: 320px;
+    width: 100%;
     height: 491px;
     background-color: white;
     margin-top: 0px;
@@ -20,7 +20,7 @@
 }
 @media (min-width: 750px){
     #contenedor5 {
-        width: 730px;
+        width: 96%;
         height: 480px;
         background-color: blue;
         margin-top: 10px;
@@ -30,7 +30,7 @@
         font-family: 'Times New Roman', Times, serif;
     }
     #contenedorcito3 {
-        width: 730px;
+        width: 100%;
         height: 480px;
         background-color: white;
         margin-top: 0px;
@@ -42,7 +42,7 @@
 }
 @media (min-width: 1000px){
     #contenedor5 {
-        width: 980px;
+        width: 97%;
         height: 480px;
         background-color: blue;
         margin-top: 10px;
@@ -52,7 +52,7 @@
         font-family: 'Times New Roman', Times, serif;
     }
     #contenedorcito3 {
-        width: 980px;
+        width: 100%;
         height: 480px;
         background-color: white;
         margin-top: 0px;
@@ -64,7 +64,7 @@
 }
 @media (min-width: 1126px){
     #contenedor5 {
-        width: 1330px;
+        width: 98%;
         height: 480px;
         background-color: blue;
         margin-top: 7px;
@@ -74,7 +74,7 @@
         font-family: 'Times New Roman', Times, serif;
     }
     #contenedorcito3 {
-        width: 1330px;
+        width: 100%;
         height: 480px;
         background-color: white;
         margin-top: 0px;

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../components/styles/Perfil.css';
 import { Card, ListGroup, Button } from 'react-bootstrap';
 
 function Mi_Perfil_en(){

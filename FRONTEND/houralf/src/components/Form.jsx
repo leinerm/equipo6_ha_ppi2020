@@ -7,7 +7,7 @@ function Formulario() {
 
     <p id="ines">Iniciar sesión-Estudiante</p>
 
-    <img id="imgus" src="https://e7.pngegg.com/pngimages/536/90/png-clipart-black-logo-computer-icons-user-profile-login-avatar-description-heroes-monochrome-thumbnail.png" alt="usuario" />
+    <img id="imgus" src="https://static.vecteezy.com/system/resources/previews/000/574/512/non_2x/vector-sign-of-user-icon.jpg" alt="usuario" />
 
     <div id="formulario_login">
       <Form >

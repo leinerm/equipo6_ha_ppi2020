@@ -1,6 +1,6 @@
 #contenedor2 {
     width: 95%;
-    height: 623px;
+    height: 98vh;
     margin-top: 7px;
     background-color: rgb(209, 252, 248);
     margin-right: auto;
@@ -13,7 +13,7 @@
 @media (min-width: 750px) { 
 #contenedor2{
     width: 96%;
-    height: 610px;
+    height: 98vh;
     background-color: rgb(209, 252, 248);
     margin-top: 7px;
     margin-bottom: 5px;
@@ -27,7 +27,7 @@
  @media (min-width: 1000px){
     #contenedor2{
         width: 97%;
-        height: 610px;
+        height: 98vh;
         background-color: rgb(209, 252, 248);
         margin-top: 7px;
         margin-bottom: 5px;
@@ -41,7 +41,7 @@
  @media (min-width: 1126px){
     #contenedor2{
         width: 98%;
-        height: 610px;
+        height: 98vh;
         background-color: rgb(209, 252, 248);
         margin-top: 7px;
         margin-bottom: 5px;

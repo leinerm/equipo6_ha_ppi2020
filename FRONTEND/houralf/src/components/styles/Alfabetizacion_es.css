@@ -1,6 +1,6 @@
 #contenedor04 {
     width: 95%;
-    height: 280px;
+    height: 44vh;
     background-color: blue;
     margin-top: 5px;
     margin-right: auto;
@@ -10,7 +10,7 @@
 }
 #contenedorcito02 {
     width: 100%;
-    height: 212px;
+    height: 34vh;
     background-color: white;
     margin-top: 0px;
     margin-right: auto;
@@ -21,9 +21,9 @@
 @media (min-width: 750px){
     #contenedor04 {
         width: 96%;
-        height: 280px;
+        height: 44vh;
         background-color: blue;
-        margin-top: 10px;
+        margin-top: 5px;
         margin-right: auto;
         margin-left: auto;
         border-radius: 15px;  
@@ -31,7 +31,7 @@
     }
     #contenedorcito02 {
         width: 100%;
-        height: 220px;
+        height: 34vh;
         background-color: white;
         margin-top: 0px;
         margin-right: auto;
@@ -43,9 +43,9 @@
 @media (min-width: 1000px){
     #contenedor04 {
         width: 97%;
-        height: 280px;
+        height: 44vh;
         background-color: blue;
-        margin-top: 10px;
+        margin-top: 5px;
         margin-right: auto;
         margin-left: auto;
         border-radius: 15px;  
@@ -53,7 +53,7 @@
     }
     #contenedorcito02 {
         width: 100%;
-        height: 220px;
+        height: 34vh;
         background-color: white;
         margin-top: 0px;
         margin-right: auto;
@@ -65,9 +65,9 @@
 @media (min-width: 1126px){
     #contenedor04 {
         width: 98%;
-        height: 280px;
+        height: 44vh;
         background-color: blue;
-        margin-top: 4px;
+        margin-top: 5px;
         margin-right: auto;
         margin-left: auto;
         border-radius: 15px;  
@@ -75,7 +75,7 @@
     }
     #contenedorcito02 {
         width: 100%;
-        height: 220px;
+        height: 34vh;
         background-color: white;
         margin-top: 0px;
         margin-right: auto;
@@ -125,9 +125,9 @@
 
 #contenedor005 {
     width: 100%;
-    height: 260px;
+    height: 44vh;
     background-color: blue;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;  
@@ -135,7 +135,7 @@
 }
 #contenedorcito003 {
     width: 100%;
-    height: 220px;
+    height: 34vh;
     background-color: white;
     margin-top: 0px;
     margin-right: auto;
@@ -146,9 +146,9 @@
 @media (min-width: 750px){
     #contenedor005 {
         width: 100%;
-        height: 280px;
+        height: 44vh;
         background-color: blue;
-        margin-top: 10px;
+        margin-top: 5px;
         margin-right: auto;
         margin-left: auto;
         border-radius: 15px;  
@@ -156,7 +156,7 @@
     }
     #contenedorcito003 {
         width: 100%;
-        height: 220px;
+        height: 34vh;
         background-color: white;
         margin-top: 0px;
         margin-right: auto;
@@ -168,9 +168,9 @@
 @media (min-width: 1000px){
     #contenedor005 {
         width: 100%;
-        height: 280px;
+        height: 44vh;
         background-color: blue;
-        margin-top: 10px;
+        margin-top: 5px;
         margin-right: auto;
         margin-left: auto;
         border-radius: 15px;  
@@ -178,7 +178,7 @@
     }
     #contenedorcito003 {
         width: 100%;
-        height: 220px;
+        height: 34vh;
         background-color: white;
         margin-top: 0px;
         margin-right: auto;
@@ -190,9 +190,9 @@
 @media (min-width: 1126px){
     #contenedor005 {
         width: 100%;
-        height: 280px;
+        height: 44vh;
         background-color: blue;
-        margin-top: 7px;
+        margin-top: 5px;
         margin-right: auto;
         margin-left: auto;
         border-radius: 15px;  
@@ -200,7 +200,7 @@
     }
     #contenedorcito003 {
         width: 100%;
-        height: 220px;
+        height: 34vh;
         background-color: white;
         margin-top: 0px;
         margin-right: auto;

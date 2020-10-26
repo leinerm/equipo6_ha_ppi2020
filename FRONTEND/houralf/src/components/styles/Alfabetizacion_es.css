@@ -127,7 +127,7 @@
     width: 100%;
     height: 44vh;
     background-color: blue;
-    margin-top: 44vh;
+    margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;  
@@ -210,7 +210,7 @@
     }
 }
 #Constitucionales_c{
-    margin-top: 35px;
+    margin-top: 85px;
     color: white;
     text-align: center;
     line-height: 60px;

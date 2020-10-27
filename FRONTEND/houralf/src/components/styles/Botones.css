@@ -91,10 +91,8 @@
 p{
     color: blue;
     font-size: 20px;
-    text-align: center;
-    font-size: 25px;
-    line-height: 100px;
-    
+    margin-top: 10%;
+    text-align: center;  
 }
 #img1{
     width: 40px;

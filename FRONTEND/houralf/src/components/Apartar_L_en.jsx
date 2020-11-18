@@ -21,22 +21,22 @@ swal({
 return(
   <div className="Apartar_L_en">
  
-    <div id="contenedor6">
+    <div className="contenedor6">
 
-<h1 id="Lugares">Lugares Disponibles</h1>
+<h1 className="Lugares">Lugares Disponibles</h1>
 
-<div id="contenedorcito4">
+<div className="contenedorcito4">
 
-<Button id="lugar" variant="outline-primary" href='/Nuevo_lugar'> <img id="lugar_n" src="https://img.freepik.com/iconos-gratis/suma_318-10811.jpg?size=338&ext=jpg" alt="+"/> </Button>{' '}
+<Button className="lugar" variant="outline-primary" href='/Nuevo_lugar'> <img className="lugar_n" src="https://img.freepik.com/iconos-gratis/suma_318-10811.jpg?size=338&ext=jpg" alt="+"/> </Button>{' '}
 
-   <div id="cont_btn">
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} >Secretaria</Button>{' '}
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} >Salon 301</Button>{' '}
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} >Secretaria</Button>{' '}
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} >coordinación</Button>{' '}
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} >rectoría</Button>{' '}
+   <div className="btn_l_es">
+    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Secretaria</span></Button>{' '}
+    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Salón 301</span></Button>{' '}
+    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Biblioteca</span></Button>{' '}
+    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Coordinació</span></Button>{' '}
+    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Rectoría</span></Button>{' '}
    </div>
-   <Button id="btnregre4" variant="outline-primary" href='/Principal_en'>Regresar</Button>{' '}
+   <Button className="btn_r_l_es" variant="outline-primary" href='/Principal_en'>Regresar</Button>{' '}
      </div>
 
 </div>

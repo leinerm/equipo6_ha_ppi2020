@@ -3,7 +3,7 @@ import {Form, Col, Button} from 'react-bootstrap';
 import './styles/Sumar.css';
 
 function Nuevo_lugar (){
-    return <div id="form_sum">
+    return <div className="form_sum">
 
 <Form>
   
@@ -19,7 +19,7 @@ function Nuevo_lugar (){
   </Form.Group>
 
 
-  <Button id="btn1010" variant="primary" type="submit"       href='/Alerta_en' >
+  <Button className="btn1010" variant="primary" type="submit"       href='/Alerta_en' >
     Confirmar
   </Button>
 </Form>

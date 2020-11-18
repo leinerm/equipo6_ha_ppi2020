@@ -1,16 +1,16 @@
-#contenedor3 {
-    width: 96%;
-    height: 97vh;
+.contenedor3 {
+    width: 96% ;
+    height: 96vh;
     background-color: blue;
     margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;  
-    font-family: 'Times New Roman', Times, serif;
+ 
 }
-#contenedorcito {
+.contenedorcito {
     width: 100%;
-    height: 82vh;
+    height: 76vh;
     background-color: white;
     margin-top: 0px;
     margin-right: auto;
@@ -18,94 +18,27 @@
     border-radius: 15px;
     border: 1px solid blue;  
 }
-@media (min-width: 750px){
-    #contenedor3 {
-        width: 97%;
-        height: 97vh;
-        background-color: blue;
-        margin-top: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito {
-        width: 100%;
-        height: 82vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-@media (min-width: 1000px){
-    #contenedor3 {
-        width: 98%;
-        height: 97vh;
-        background-color: blue;
-        margin-top: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito {
-        width: 100%;
-        height: 82vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-@media (min-width: 1126px){
-    #contenedor3 {
-        width: 99%;
-        height: 97vh;
-        background-color: blue;
-        margin-top: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito {
-        width: 100%;
-        height: 82vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-
-#usper{
+.usper{
     width: 150px;
     height: 150px;
     border-radius: 75px;
     display:block;
     margin:auto;
 }
-#Card{
+.Card{
     background-color: rgb(198, 253, 248);
     width: 270px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
-h3{
+.texto_i_p{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 30px;
 }
-#btnregre{
-    display:block;
-    margin:auto;
-    margin-top: 60px;
-    width: 100px;
+.btn_r_p{
+    display:block !important;
+    margin:auto !important;
+    margin-top: 60px !important;
+    width: 100px !important;
 }

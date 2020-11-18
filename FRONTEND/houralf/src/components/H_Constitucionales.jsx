@@ -4,26 +4,26 @@ import '../components/styles/Constitucionales.css';
 
 function H_Consti(){
 
-    return <div id="contenedor5">
+    return <div className="contenedor5">
 
-    <h1 id="Constitucionales">Constitucionales</h1>
+    <h1 className="Constitucionales">Constitucionales</h1>
 
-    <div id="contenedorcito3">
+    <div className="contenedorcito3">
 
-        <p id ="espacio">Tus Progresos</p>
+        <p className ="espacio">Tu Progreso</p>
        
-        <div id="Card1">
+        <div className="Card1">
             <Card>
                 <Card.Header>Tus horas realizadas son:</Card.Header>
             </Card>
         </div>
-        <div id="Card2">
+        <div className="Card2">
             <Card>
                 <Card.Header>Tus horas restantes son:</Card.Header>
             </Card>
         </div>
 
-        <Button id="btnregre3" variant="outline-primary" href='/Principal'>Regresar</Button>{' '}
+        <Button className="btn_r_c" variant="outline-primary" href='/Principal'>Regresar</Button>{' '}
 
 
     </div>

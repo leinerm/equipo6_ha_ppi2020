@@ -1,4 +1,4 @@
-#contenedor6 {
+.contenedor6 {
     width: 95%;
     height: 97vh;
     background-color: blue;
@@ -6,9 +6,9 @@
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;  
-    font-family: 'Times New Roman', Times, serif;
+    
 }
-#contenedorcito4 {
+.contenedorcito4 {
     width: 100%;
     height: 85vh;
     background-color: white;
@@ -18,100 +18,36 @@
     border-radius: 15px; 
     border: 1px solid blue;
 }
-@media (min-width: 750px){
-    #contenedor6 {
-        width: 96%;
-        height: 97vh;
-        background-color: blue;
-        margin-top: 10px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito4 {
-        width: 100%;
-        height: 85vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-@media (min-width: 1000px){
-    #contenedor6 {
-        width: 97%;
-        height: 97vh;
-        background-color: blue;
-        margin-top: 10px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito4 {
-        width: 100%;
-        height: 85vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-@media (min-width: 1126px){
-    #contenedor6 {
-        width: 98%;
-        height: 97vh;
-        background-color: blue;
-        margin-top: 7px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito4 {
-        width: 100%;
-        height: 85vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-#Lugares{
+
+.Lugares{
     color: white;
     text-align: center;
     line-height: 120px;
     font-size: 30px;
 }
-#lugar{
-    display:block;
-    margin:auto;
-    color: black;
-    border-radius: 80px;
-    width: 100px;
-    margin-top: 10%;
-    margin-bottom: 5px;
+.lugar{
+    display:block !important;
+    margin:auto !important;
+    color: black !important;
+    border-radius: 80px !important;
+    width: 100px !important;
+    margin-top: 40px !important;
+    margin-bottom: 15px !important;
+    font-size: 25px;
 }
-#cont_btn{
+.btn_l_es{
     width: 250px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
 }
-#btnregre4{
-    display:block;
-    margin:auto;
-    width: 100px;
-    margin-top: 40px;
+.btn_r_l_es{
+    display:block !important;
+    margin:auto !important;
+    width: 100px !important;
+    margin-top: 40px !important;
 }
-#lugar_n{
+.lugar_n{
     width: 50px;
     height: 50px;
     border-radius: 60px;

@@ -1,5 +1,5 @@
-#contenedor1 {
-    width: 95%;
+.contenedor_p_es {
+    width: 97%;
     height: 97vh;
     background-color: rgb(198, 253, 248);
     margin-top: 10px;
@@ -7,120 +7,84 @@
     margin-left: auto;
     border-radius: 15px;  
     border: 1px solid rgb(0, 255, 234);
-    font-family: 'Times New Roman', Times, serif;
-}
-@media (min-width: 750px) { 
-    #contenedor1{
-        width: 96%;
-        height: 97vh;
-        background-color: rgb(209, 252, 248);
-        margin-top: 7px;
-        margin-bottom: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid rgb(0, 255, 234);
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #btn{
-        width: 580px;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
     
-     }
-     @media (min-width: 1000px){
-        #contenedor1{
-            width: 97%;
-            height: 97vh;
-            background-color: rgb(209, 252, 248);
-            margin-top: 7px;
-            margin-bottom: 5px;
-            margin-right: auto;
-            margin-left: auto;
-            border-radius: 15px;
-            border: 1px solid rgb(0, 255, 234);
-            font-family: 'Times New Roman', Times, serif;
-        }
-     }
-     @media (min-width: 1126px){
-        #contenedor1{
-            width: 98%;
-            height: 97vh;
-            background-color: rgb(209, 252, 248);
-            margin-top: 7px;
-            margin-bottom: 5px;
-            margin-right: auto;
-            margin-left: auto;
-            border-radius: 15px;
-            border: 1px solid rgb(0, 255, 234);
-            font-family: 'Times New Roman', Times, serif;
-        }
-        
-     }
-#btn{
+}
+
+.btn_es{
     width: 280px;
     margin-left: auto;
     margin-right: auto;
 }
-#b1{
-    margin-top: 10px;
+.b1_es{
+    margin-top: 30px !important;
     height: 60px;
-    background-color: white;
-    border-radius: 15px;
+    background-color: white !important;
+    border-radius: 15px !important;
 }
-#b2{
-    margin-top: 50px;
+.b2_es{
+    margin-top: 50px !important;
     height: 60px;
-    background-color: white;
-    border-radius: 15px;
+    background-color: white !important;
+    border-radius: 15px !important;
 }
-#b3{
-    margin-top: 50px;
+.b3_es{
+    margin-top: 50px !important;
     height: 60px;
-    background-color: white;
-    border-radius: 15px;
+    background-color: white !important;
+    border-radius: 15px !important;
 }
-#b4{
-    margin-top: 50px;
+.b4_es{
+    margin-top: 50px !important;
     height: 60px;
-    background-color: white;
-    border-radius: 15px;
+    background-color: white !important;
+    border-radius: 15px !important;
 }
-p{
+.b1_es:hover{
+    color: #007BFF !important;
+}
+.b2_es:hover{
+    color: #007BFF !important;
+}
+.b3_es:hover{
+    color: #007BFF !important;
+}
+.b4_es:hover{
+    color: #007BFF !important;
+}
+.parrafo_botones{
     color: blue;
     font-size: 20px;
-    margin-top: 10%;
+    margin-top: 9vh;
     text-align: center;
 }
-#img1{
+.img1_es{
     width: 40px;
     height: 40px;
     margin-left: -60px;
     margin-right: 50px;
+    border-radius: 20px;
 }
-#img2{
+.img2_es{
     width: 40px;
     height: 40px;
     margin-left: -20px;
     margin-right: 40px;
 }
-#img3{
+.img3_es{
     width: 40px;
     height: 40px;
     margin-left: -20px;
     margin-right: 25px;
 }
-#img4{
+.img4_es{
     width: 40px;
     height: 40px;
     margin-left: -10px;
     margin-right: 10px;
 }
-#btnregre7{
-    display:block;
-    margin:auto;
-    width: 100px;
-    margin-top: 40px;
+.btn_r_p_es{
+    display:block !important;
+    margin:auto !important;
+    width: 100px !important;
+    margin-top: 40px !important;
 }

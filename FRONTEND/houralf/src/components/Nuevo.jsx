@@ -13,38 +13,38 @@ function Nuevo_es(){
     })
   }
 
-    return <div id="contenedor23">
-    <img id="uspe" src="https://w7.pngwing.com/pngs/831/88/png-transparent-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design-smile.png" alt="Foto" />
-    <div id="contenedorcito23">
-        <h3>Registro</h3>
-        <div id="Form_nuevo">
+    return <div className="contenedor23">
+    <img className="uspe_n" src="https://w7.pngwing.com/pngs/831/88/png-transparent-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design-smile.png" alt="Foto" />
+    <div className="contenedorcito23">
+        <h3 className="texto_r">Registro</h3>
+        <div className="Form_nuevo">
 
         <Form >
   <Form.Row>
     <Form.Group as={Col} controlId="formGridEmail">
-      <Form.Label>Usuario</Form.Label>
+      <Form.Label> <span>Usuario</span> </Form.Label>
       <Form.Control type="email" placeholder="" />
     </Form.Group>
 
     <Form.Group as={Col} controlId="formGridPassword">
-      <Form.Label>Contraseña</Form.Label>
+      <Form.Label> <span>Contraseña</span> </Form.Label>
       <Form.Control type="password" placeholder="" />
     </Form.Group>
   </Form.Row>
 
   <Form.Group controlId="formGridAddress1">
-    <Form.Label>Documento</Form.Label>
+    <Form.Label> <span>Documento</span> </Form.Label>
     <Form.Control placeholder="" />
   </Form.Group>
 
   <Form.Group controlId="formGridAddress1">
-    <Form.Label>Nombre</Form.Label>
+    <Form.Label> <span>Nombre</span> </Form.Label>
     <Form.Control placeholder="" />
   </Form.Group>
 
   <Form.Row>
   <Form.Group as={Col} controlId="formGridState">
-      <Form.Label>Tipo de usuario</Form.Label>
+      <Form.Label> <span>Tipo de usuario</span> </Form.Label>
       <Form.Control as="select" defaultValue="Choose...">
         <option>Encargado</option>
         <option>Estudiante</option>

@@ -1,57 +1,19 @@
-#contenedor2 {
-    width: 95%;
-    height: 98vh;
-    margin-top: 7px;
+.contenedor2 {
+    width: 97%;
+    height: 97vh;
+    margin-top: 1vh;
     background-color: rgb(209, 252, 248);
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;
     border: 1px solid rgb(0, 255, 234);
-    font-family: 'Times New Roman', Times, serif;  
+    
 }
 
-@media (min-width: 750px) { 
-#contenedor2{
-    width: 96%;
-    height: 98vh;
-    background-color: rgb(209, 252, 248);
-    margin-top: 7px;
-    margin-bottom: 5px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 15px;
-    border: 1px solid rgb(0, 255, 234);
-    font-family: 'Times New Roman', Times, serif;
-}
- }
- @media (min-width: 1000px){
-    #contenedor2{
-        width: 97%;
-        height: 98vh;
-        background-color: rgb(209, 252, 248);
-        margin-top: 7px;
-        margin-bottom: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid rgb(0, 255, 234);
-        font-family: 'Times New Roman', Times, serif;
-    }
- }
+
  @media (min-width: 1126px){
-    #contenedor2{
-        width: 98%;
-        height: 98vh;
-        background-color: rgb(209, 252, 248);
-        margin-top: 7px;
-        margin-bottom: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid rgb(0, 255, 234);
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #formulario_login{
+ 
+    .formulario_login{
         background-color: rgb(209, 252, 248);
         width: 500px;
         margin-left: auto;
@@ -62,7 +24,7 @@
  }
 
 
-#formulario_login{
+.formulario_login{
     background-color: rgb(209, 252, 248);
     width: 250px;
     margin-left: auto;
@@ -70,7 +32,7 @@
     margin-top: 20px;
    
 }
-#imgus{
+.imgus{
 line-height: 200px;
 display:block;
 margin:auto;
@@ -78,15 +40,23 @@ width: 200px;
 height: 200px;
 border-radius: 100px;
 }
-#ines{
+.ines{
     color: blue;
     font-size: 20px;
-    margin-top: 10%;
+    margin-top: 10vh;
     text-align: center;
 }
-#btnregre6{
-    display:block;
-    margin:auto;
-    margin-top: 40px;
-    width: 100px;
+.btn_r_f{
+    display:block !important;
+    margin:auto !important;
+    margin-top: 40px !important;
+    width: 100px !important;
+    margin-bottom: 30px !important;
+}
+.input_form{
+    width: 100%;
+    height: 38px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding-left: 15px;
 }

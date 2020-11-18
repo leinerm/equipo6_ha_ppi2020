@@ -1,16 +1,16 @@
-#contenedor04 {
+.contenedor04 {
     width: 95%;
-    height: 44vh;
+    height: 42vh;
     background-color: blue;
     margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;  
-    font-family: 'Times New Roman', Times, serif;
+   font-size: 14px;
 }
-#contenedorcito02 {
+.contenedorcito02 {
     width: 100%;
-    height: 42vh;
+    height: 33vh;
     background-color: white;
     margin-top: 0px;
     margin-right: auto;
@@ -18,92 +18,27 @@
     border-radius: 15px; 
     border: 1px solid blue;
 }
-@media (min-width: 750px){
-    #contenedor04 {
-        width: 96%;
-        height: 44vh;
-        background-color: blue;
-        margin-top: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito02 {
-        width: 100%;
-        height: 42vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-@media (min-width: 1000px){
-    #contenedor04 {
-        width: 97%;
-        height: 44vh;
-        background-color: blue;
-        margin-top: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito02 {
-        width: 100%;
-        height: 42vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-@media (min-width: 1126px){
-    #contenedor04 {
-        width: 98%;
-        height: 44vh;
-        background-color: blue;
-        margin-top: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito02 {
-        width: 100%;
-        height: 42vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-#alfabetizacion_es{
+
+.alfabetizacion_es{
     color: white;
     text-align: center;
     line-height: 60px;
 }
-#espacio_es{
+.espacio_es{
     text-align: center;
     line-height: 40px;
     color: black;
 }
 
-#Card01{
+.Card01{
     width: 250px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -10px;
+    margin-top: -20px;
     border: 1px solid rgb(21, 255, 0);
     border-radius: 5px;
 }
-#Card02{
+.Card02{
     width: 250px;
     margin-left: auto;
     margin-right: auto;
@@ -111,31 +46,19 @@
     border: 1px solid rgb(255, 17, 0);
     border-radius: 5px;
 }
-#btnregre02{
-    display:block;
-    margin:auto;
-    width: 100px;
-    margin-top: 60px;
-}
-
-
-
-
-
-
-#contenedor005 {
+.contenedor005 {
     width: 100%;
-    height: 44vh;
+    height: 42vh;
     background-color: blue;
     margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;  
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
 }
-#contenedorcito003 {
+.contenedorcito003 {
     width: 100%;
-    height: 42vh;
+    height: 33vh;
     background-color: white;
     margin-top: 0px;
     margin-right: auto;
@@ -143,118 +66,53 @@
     border-radius: 15px; 
     border: 1px solid blue;
 }
-@media (min-width: 750px){
-    #contenedor005 {
-        width: 100%;
-        height: 44vh;
-        background-color: blue;
-        margin-top: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito003 {
-        width: 100%;
-        height: 42vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-@media (min-width: 1000px){
-    #contenedor005 {
-        width: 100%;
-        height: 44vh;
-        background-color: blue;
-        margin-top: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito003 {
-        width: 100%;
-        height: 42vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-@media (min-width: 1126px){
-    #contenedor005 {
-        width: 100%;
-        height: 44vh;
-        background-color: blue;
-        margin-top: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;  
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #contenedorcito003 {
-        width: 100%;
-        height: 42vh;
-        background-color: white;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 15px;
-        border: 1px solid blue;  
-    }
-}
-#Constitucionales_c{
-    margin-top: 35px;
+
+.Constitucionales_c{
+    margin-top: 80px;
     color: white;
     text-align: center;
     line-height: 60px;
    
 }
-#espacio_c{
+.espacio_c{
     text-align: center;
     line-height: 40px;
     color: black;
 }
 
-#Card001{
+.Card001{
     width: 250px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
+    margin-top: -20px;
     border: 1px solid rgb(21, 255, 0);
     border-radius: 5px;
 }
-#Card002{
+.Card002{
     width: 250px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     border: 1px solid rgb(255, 17, 0);
     border-radius: 5px;
 }
-#btnregre003{
-    display:block;
-    margin:auto;
-    width: 100px;
-    margin-top: 22px;
+.btn_r_p_es{
+    display:block !important;
+    margin:auto !important;
+    width: 100px !important;
+    margin-top: 0px !important;
 }
-#suma{
-    width: 30px;
-    height: 30px;
-    border: 0px;
+.suma{
+    width: 30px !important;
+    height: 30px !important;
+    border: 0px !important;
 }
-#sumar{
+.sumar{
     width: 25px;
     height: 25px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    margin-bottom: auto;    
+   
 }

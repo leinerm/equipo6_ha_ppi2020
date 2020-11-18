@@ -3,7 +3,7 @@ import {Form, Col, Button} from 'react-bootstrap';
 import './styles/Sumar.css';
 
 function Sumar_h (){
-    return <div id="form_sum">
+    return <div className="form_sum">
 
 <Form>
   
@@ -19,7 +19,7 @@ function Sumar_h (){
   </Form.Group>
 
 
-  <Button id="btn1010" variant="primary" type="submit"       href='/Alfabetizacion_es' >
+  <Button className="btn1010" variant="primary" type="submit"       href='/Alfabetizacion_es' >
     Confirmar
   </Button>
 </Form>

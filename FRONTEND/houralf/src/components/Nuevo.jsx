@@ -1,9 +1,44 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Button, Form, Col}  from 'react-bootstrap';
 import './styles/Nuevo_es.css';
 import swal from 'sweetalert';
+import axios from 'axios';
+import { useHistory } from "react-router-dom";
 
 function Nuevo_es(){
+
+    const history = useHistory();
+
+    const [model, setModel] = useState({
+        user: '',
+        name: '',
+        doc: '',
+        password: '',
+        typeUser: ''
+    });
+
+    const createAccount = async () => {
+        if(!model.user || !model.name || !model.doc || !model.password || !model.typeUser) {
+            swal({
+                title: "Todos los campos son obligatorios"
+            })
+        } else {
+            const response = await axios.post('http://localhost:5057/newRegister', model);
+                if(response.data.status === 200 && response.data.message === 'register successful') {
+                    mostrarAlertae();
+                    setTimeout(() => {history.push('/Login_en')}, 2000)
+                } else if(response.data.message === 'este documento ya se encuentra en las bases de datos') {
+                    swal({
+                        title: "el documento ya se encuentra en nuestras bases de datos",
+                    })
+                } else if (response.data.message ==='el documento no existe en las bases de datos de maestros'){
+                    swal({
+                        title: "el documento no existe en las bases de datos de maestros",
+                    })
+                }
+
+        }
+    };
 
   const mostrarAlertae=()=>{
 
@@ -23,38 +58,39 @@ function Nuevo_es(){
   <Form.Row>
     <Form.Group as={Col} controlId="formGridEmail">
       <Form.Label> <span>Usuario</span> </Form.Label>
-      <Form.Control type="email" placeholder="" />
+      <Form.Control name="user" onChange={(e) => setModel({...model, [e.target.name]: e.target.value})} type="text" />
     </Form.Group>
 
     <Form.Group as={Col} controlId="formGridPassword">
       <Form.Label> <span>Contraseña</span> </Form.Label>
-      <Form.Control type="password" placeholder="" />
+      <Form.Control name="password" onChange={(e) => setModel({...model, [e.target.name]: e.target.value})} type="password"  />
     </Form.Group>
   </Form.Row>
 
   <Form.Group controlId="formGridAddress1">
     <Form.Label> <span>Documento</span> </Form.Label>
-    <Form.Control placeholder="" />
+    <Form.Control type="number" name="doc" onChange={(e) => setModel({...model, [e.target.name]: e.target.value})} />
   </Form.Group>
 
   <Form.Group controlId="formGridAddress1">
     <Form.Label> <span>Nombre</span> </Form.Label>
-    <Form.Control placeholder="" />
+    <Form.Control name="name" onChange={(e) => setModel({...model, [e.target.name]: e.target.value})} type="text" />
   </Form.Group>
 
   <Form.Row>
-  <Form.Group as={Col} controlId="formGridState">
+  <Form.Group  as={Col} controlId="formGridState">
       <Form.Label> <span>Tipo de usuario</span> </Form.Label>
-      <Form.Control as="select" defaultValue="Choose...">
-        <option>Encargado</option>
-        <option>Estudiante</option>
+      <Form.Control name="typeUser" onChange={(e) => setModel({...model, [e.target.name]: e.target.value})} as="select" defaultValue="none" >
+          <option value="none">Seleccione...</option>
+          <option value="master">Encargado</option>
+          <option value="student">Estudiante</option>
       </Form.Control>
     </Form.Group>
 
   </Form.Row>
 
 
-  <Button id="btncc" variant="primary" type="submit"  size="lg" block onClick={()=>mostrarAlertae()} > 
+  <Button id="btncc" variant="primary" type="button"  size="lg" block onClick={() => createAccount()} >
 
   Crear cuenta
   </Button>

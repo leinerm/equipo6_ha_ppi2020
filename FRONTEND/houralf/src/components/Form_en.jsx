@@ -24,7 +24,8 @@ function Formulario_en (){
 
           <input className="input_form" type="password" placeholder="Contraseña" />
         </Form.Group>
-        <Button variant="primary" size="lg" block href='/Principal_en' >Acceder</Button>
+            <Button variant="primary" size="lg" block href='/Principal_en' >Acceder</Button>
+            <Button variant="secondary" size="lg" block href='/Nuevo_us' >Registrarse</Button>
 
       </Form>
     </div>

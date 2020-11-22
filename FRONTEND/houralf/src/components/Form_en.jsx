@@ -19,15 +19,16 @@ function Formulario_en (){
      return;
     }
     const response = await axios.post('http://localhost:5057/loginEn', login);
+
     if(response.data.success && response.data.data){
       const login = {
         ...response.data.data, 
         status: true
       };
-      localStorage.setItem('login', JSON.stringify(login));
+        localStorage.setItem('login', JSON.stringify(login));
       history.push('/Principal_en');
     } else if(!response.data.success && response.data.message === 'user not found') {
-      alert('el usuario no existe');
+      alert('El usuario no existe');
     }
   }
 

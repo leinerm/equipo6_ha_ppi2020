@@ -96,7 +96,7 @@ app.post('/newRegister', function(request, response){
 })
 
 
-//servicio de login para encargado
+//servicio de login para encargados
 app.post('/loginEn', function(request, response){
     const {user, password} = request.body;
     const model = [user, password]
@@ -120,6 +120,33 @@ app.post('/loginEn', function(request, response){
             }
         }
     });
+});
+
+//servicio de login para estudiantes
+app.post('/loginEs', function(request, response) {
+  const {user, password} = request.body
+  const model_es = [user, password]
+  console.error(user, password); 
+
+  conexion.query('select * from estudiante where usuario = ? and contraseña = ?',model_es ,(err, result, field) => {
+
+    if(err) {
+        console.error(err.message);
+    } else {
+        if(result.length > 0 ) {
+               response.json({
+                message: 'request successful',
+                success: true,
+                data: result[0]
+            });
+        } else {
+            response.json({
+                message: 'user not found',
+                success: false,
+            });
+        }
+    }
+});
 });
 
 //ponemos a correr el servidor 

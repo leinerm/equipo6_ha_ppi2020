@@ -7,6 +7,8 @@ import { useHistory } from "react-router-dom";
 
 function Nuevo_es(){
 
+    const [status, setStatus] = useState(JSON.parse(localStorage.getItem('login')));
+    console.log(status);
     const history = useHistory();
 
     const [model, setModel] = useState({
@@ -16,6 +18,14 @@ function Nuevo_es(){
         password: '',
         typeUser: ''
     });
+
+    function back() {
+      if(!status) {
+        history.push('/Login_en')
+      }else  if(status.status && status.cargo === 'master') {
+      history.push('/Principal_en')
+    }
+    }
 
     const createAccount = async () => {
         if(!model.user || !model.name || !model.doc || !model.password || !model.typeUser) {
@@ -97,7 +107,7 @@ function Nuevo_es(){
 </Form>
         
         </div>
-        <Button id="btnregreus" variant="outline-primary" href='/Principal_en'>Regresar</Button>{' '}
+        <Button id="btnregreus" variant="outline-primary" onClick={() => back() } >Regresar</Button>{' '}
     </div>
 
 </div>

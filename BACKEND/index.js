@@ -3,6 +3,7 @@ const app = express();
 const mysql = require('mysql');
 const bodyParser = require('body-parser');
 
+//conexiòn a mysql
 const conexion = mysql.createConnection({
     host: 'blquuwyhye6u7xmtf4yd-mysql.services.clever-cloud.com',
     user:'ust6o8xko4fonhml',
@@ -20,6 +21,8 @@ const model_master = {
     type_user: 'master'
 };
 
+//servicio para obtener informacion del maestro
+
 app.get('/getMaster', function(request, response){
     response.send({
         error: false,
@@ -28,6 +31,8 @@ app.get('/getMaster', function(request, response){
     });
     return
 });
+
+//servicio para registrar usuario
 
 app.post('/newRegister', function(request, response){
     const {user, name, doc, password, typeUser} = request.body;
@@ -90,10 +95,39 @@ app.post('/newRegister', function(request, response){
 
 })
 
+
+//servicio de login para encargado
+app.post('/loginEn', function(request, response){
+    const {user, password} = request.body;
+    const model = [user, password]
+    console.error(user, password);
+    conexion.query('select * from encargado where usuario = ? and contraseña = ?',model ,(err, result, field) => {
+
+        if(err) {
+            console.error(err.message);
+        } else {
+            if(result.length > 0 ) {
+                   response.json({
+                    message: 'request successful',
+                    success: true,
+                    data: result[0]
+                });
+            } else {
+                response.json({
+                    message: 'user not found',
+                    success: false,
+                });
+            }
+        }
+    });
+});
+
+//ponemos a correr el servidor 
 app.listen(port, function(){
     console.log('el servidor se encuentra activo');
 });
 
+//metodo para conectarse a la base de datos
 conexion.connect(function (err) {
     if(err) {
         console.error(err);
@@ -102,3 +136,4 @@ conexion.connect(function (err) {
         console.log('base de datos conectada');
     }
 });
+

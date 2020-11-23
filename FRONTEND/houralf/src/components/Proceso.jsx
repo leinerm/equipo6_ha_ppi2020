@@ -1,10 +1,26 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import swal from 'sweetalert';
 import {Button} from 'react-bootstrap';
 import '../components/styles/Proceso.css';
+import axios from 'axios';
 
 
 function Proceso_es (){
+
+    const [students, setStudents] = useState([]);
+
+   async function getStudent() {
+       const res = await axios.get('http://localhost:5057/getStudents');
+       if(res.data.success && res.data.data) {
+           setStudents(res.data.data);
+       } else {
+           alert('ocurrio un problema');
+       }
+   };
+
+    useEffect(() => {
+        getStudent();
+    }, []);
     
         return(
           <div className="Apartar_L">
@@ -18,11 +34,11 @@ function Proceso_es (){
             <p className ="estudiantes">Estudiantes</p>
         
            <div className="btn_p">
-            <Button variant="outline-primary" size="lg" block href='/Alfabetizacion_es' >Juan Montoya</Button>{' '}
-            <Button variant="outline-primary" size="lg" block href='/Alfabetizacion_es' >Jorge Hernández</Button>{' '}
-            <Button variant="outline-primary" size="lg" block href='/Alfabetizacion_es' >Cristian Manjarrés</Button>{' '}
-            <Button variant="outline-primary" size="lg" block href='/Alfabetizacion_es' >Jorge Muñoz</Button>{' '}
-            <Button variant="outline-primary" size="lg" block href='/Alfabetizacion_es' >Sergio Mosquera</Button>{' '}
+               {
+                   students.map((student, index) => (
+                       <Button variant="outline-primary" key={index} size="lg" block href={'/Alfabetizacion_es/' + student.documento} >{student.nombre}</Button>
+                   ))
+               }
            </div>
            <Button className="btn_r_p" variant="outline-primary" href='/Principal_en'>Regresar</Button>{' '}
              </div>

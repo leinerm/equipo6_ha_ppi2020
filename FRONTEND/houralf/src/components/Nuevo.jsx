@@ -32,11 +32,14 @@ function Nuevo_es(){
             swal({
                 title: "Todos los campos son obligatorios"
             })
-        } else {
+        }
+        else {
             const response = await axios.post('http://localhost:5057/newRegister', model);
-                if(response.data.status === 200 && response.data.message === 'register successful') {
+            if(response.data.status === 200 && response.data.typeUser === 'student') {
+                mostrarAlertae();
+            } else if(response.data.status === 200 && response.data.message === 'register successful') {
                     mostrarAlertae();
-                    setTimeout(() => {history.push('/Login_en')}, 2000)
+                    setTimeout(() => {history.push('/Login_en')}, 1000)
                 } else if(response.data.message === 'este documento ya se encuentra en las bases de datos') {
                     swal({
                         title: "el documento ya se encuentra en nuestras bases de datos",

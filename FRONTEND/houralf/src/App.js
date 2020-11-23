@@ -26,7 +26,7 @@ function App() {
     <Router>
     <Route exact path="/Login" component={Login}/>
     <Route exact path="/Alfabetizacion" component={Alfabetizacion}/>
-    <Route exact path="/Alfabetizacion_es" component={Alfabetizacion_es}/>
+    <Route exact path="/Alfabetizacion_es/:doc" component={Alfabetizacion_es}/>
     <Route exact path="/Constitucionales" component={Constitucionales}/>
     <Route exact path="/Perfil" component={My_Profile}/>
     <Route exact path="/Perfil_en" component={My_Profile_en}/>
@@ -38,7 +38,7 @@ function App() {
     <Route exact path="/Login_en" component={Login_en}/>
     <Route exact path="/Proceso_en" component={Estudiantes}/>
     <Route exact path="/Nuevo_us" component={Nuevo_estudiante}/>
-    <Route exact path="/Sumar" component={Sumar_H}/>
+    <Route exact path="/Sumar/:type/:doc" component={Sumar_H}/>
     <Route exact path="/Nuevo_lugar" component={Nuevo_L}/>
   </Router>
   );

@@ -123,6 +123,7 @@ app.get('/getHours/:doc', function(req, res) {
     });
 });
 
+//servicio para sumar las horas
 app.put('/putHours', function (req, res) {
     const {hours, date, typeHours, document} = req.body;
     conexion.query("SELECT * FROM horas WHERE doc = ?", document,  (err, result, field) => {
@@ -157,10 +158,45 @@ app.put('/putHours', function (req, res) {
     });
 });
 
+//servicio para añadir lugares
+app.post('/postLugares', function (request, response){
+    console.log(request.body);
+    const {name, code_lugar, description} = request.body;
+    const model_lugares = [code_lugar, name, description];
+    console.error(model_lugares);
+    conexion.query('INSERT INTO `lugares_disponibles` (`cod_lugar`, `nombre`, `descripcion`) VALUES (?, ?, ?);', model_lugares, (err, result, field) => {
+        if(err) {
+            console.error(err.message);
+        } else {
+            response.json({
+                message: 'request successful',
+                success: true,
+            
+            });
+        }
+        
+    })
+});
+
 // devolver los estudiantes
 
 app.get('/getStudents', function (req, res) {
     conexion.query('SELECT * FROM estudiante', (err, result, field) => {
+        if (err) {
+            console.error(err.message);
+        } else {
+            res.json({
+                message: 'request successful',
+                success: true,
+                data: result
+            });
+        }
+    });
+});
+
+//servicio para devolver los lugares 
+app.get('/getLugares', function (req, res) {
+    conexion.query('SELECT * FROM lugares_disponibles', (err, result, field) => {
         if (err) {
             console.error(err.message);
         } else {

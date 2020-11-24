@@ -1,9 +1,25 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import swal from 'sweetalert';
 import {Button} from 'react-bootstrap';
 import '../components/styles/Lugares.css';
+import axios from 'axios';
 
 function Apartar_L_en (){
+
+  const [lugares, setLugares] = useState([]);
+
+  async function getLugares() {
+    const res = await axios.get('http://localhost:5057/getLugares');
+    if(res.data.success && res.data.data) {
+        setLugares(res.data.data);
+    } else {
+        alert('ocurrio un problema');
+    }
+};
+
+useEffect(() => {
+  getLugares();
+}, []);
 
 const mostrarAlerta=()=>{
 
@@ -29,13 +45,13 @@ return(
 
 <Button className="lugar" variant="outline-primary" href='/Nuevo_lugar'> <img className="lugar_n" src="https://img.freepik.com/iconos-gratis/suma_318-10811.jpg?size=338&ext=jpg" alt="+"/> </Button>{' '}
 
-   <div className="btn_l_es">
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Secretaria</span></Button>{' '}
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Salón 301</span></Button>{' '}
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Biblioteca</span></Button>{' '}
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Coordinació</span></Button>{' '}
-    <Button variant="outline-primary" size="lg" block onClick={()=>mostrarAlerta()} ><span>Rectoría</span></Button>{' '}
-   </div>
+<div className="btn_l_es">
+               {
+                   lugares.map((lugares, index) => (
+                       <Button variant="outline-primary" key={index} size="lg" block >{lugares.nombre}</Button>
+                   ))
+               }
+           </div>
    <Button className="btn_r_l_es" variant="outline-primary" href='/Principal_en'>Regresar</Button>{' '}
      </div>
 

@@ -2,8 +2,18 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import '../components/styles/Botones.css';
 import './Apartar_L'
+import {useHistory} from "react-router-dom";
 
 function Principal() {
+
+    
+
+    const history = useHistory();
+
+    function logout() {
+        localStorage.removeItem('login');
+        history.push('/Login')
+    }
 
     return <div className="contenedor_p_es">
         <p className="parrafo_botones">¿Que Deseas Consultar?</p>
@@ -14,7 +24,7 @@ function Principal() {
             <Button className="b4_es" variant="outline-primary" size="lg" block href='/Alerta'> <img className="img4_es" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDU49igDDyiu3bqNB_hfty6LHIZlplzLGQ5g&usqp=CAU" alt="Lugar"/> Lugares Disponibles</Button>{''}
 
         </div>
-        <Button className="btn_r_p_es" variant="outline-primary" href='/Login'>Regresar</Button>{' '}
+        <Button className="btn_r_p_es" variant="outline-primary" onClick={() => logout()}>Cerrar sesión</Button>{' '}
     </div>
 
 

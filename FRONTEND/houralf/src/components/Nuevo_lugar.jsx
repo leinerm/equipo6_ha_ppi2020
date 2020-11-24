@@ -20,7 +20,8 @@ function Nuevo_lugar (){
       console.log(model_lugares);
       const response = await axios.post('http://localhost:5057/postLugares', model_lugares);
       if(response.data.success && response.data.message === "request successful"){
-        alert("El luagr se creo con exito");
+        alert("El lugar se guardo con exito");
+        
       }
     }
   }
@@ -50,6 +51,7 @@ function Nuevo_lugar (){
   <Button className="btn1010" variant="primary" type="button"   onClick={() => postLugar()}>
     Confirmar
   </Button>
+  <Button className="btn_r_a" variant="outline-primary" href='/Alerta_en'>Regresar</Button>{' '}
 </Form>
 
     </div>

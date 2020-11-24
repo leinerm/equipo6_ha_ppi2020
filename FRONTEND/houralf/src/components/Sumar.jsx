@@ -51,6 +51,9 @@ function Sumar_h (){
   <Button className="btn1010" variant="primary" type="button" onClick={() => postInfo()} >
     Confirmar
   </Button>
+
+  <Button className="btn_r_a" variant="outline-primary" href='/Principal_en'>Regresar</Button>{' '}
+
 </Form>
 
     </div>

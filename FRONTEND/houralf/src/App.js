@@ -25,9 +25,9 @@ function App() {
   return (
     <Router>
     <Route exact path="/Login" component={Login}/>
-    <Route exact path="/Alfabetizacion" component={Alfabetizacion}/>
+    <Route exact path="/Alfabetizacion/:doc" component={Alfabetizacion}/>
     <Route exact path="/Alfabetizacion_es/:doc" component={Alfabetizacion_es}/>
-    <Route exact path="/Constitucionales" component={Constitucionales}/>
+    <Route exact path="/Constitucionales/:doc" component={Constitucionales}/>
     <Route exact path="/Perfil" component={My_Profile}/>
     <Route exact path="/Perfil_en" component={My_Profile_en}/>
     <Route exact path="/Principal" component={Principal}/>

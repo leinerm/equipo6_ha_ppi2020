@@ -36,6 +36,23 @@ app.get('/getMaster', function(request, response){
     return
 });
 
+const model_student = {
+    name: 'Andres ',
+    doc: '1000294875',
+    type_user: 'student'
+};
+
+//servicio para obtener informacion del estudiante
+
+app.get('/getStudent', function(request, response){
+    response.send({
+        error: false,
+        status: 200,
+        data: model_student
+    });
+    return
+});
+
 //servicio para registrar usuario
 
 app.post('/newRegister', function(request, response){
@@ -123,6 +140,41 @@ app.get('/getHours/:doc', function(req, res) {
     });
 });
 
+
+// devolver las horas de alfabetizcion desde el flujo de estudiante 
+
+app.get('/getHoursEs/:doc', function(req, res) {
+    const doc = req.params.doc;
+    conexion.query("SELECT * FROM horas WHERE doc = ?", doc, (err, result, field) => {
+        if(err) {
+            console.error(err.message);
+        } else {
+            res.json({
+                message: 'request successful',
+                success: true,
+                data: result[0]
+            });
+        }
+    });
+});
+
+// devolver las horas constitucionales desde el flujo de estudiante 
+
+app.get('/getHoursEsConst/:doc', function(req, res) {
+    const doc = req.params.doc;
+    conexion.query("SELECT * FROM horas WHERE doc = ?", doc, (err, result, field) => {
+        if(err) {
+            console.error(err.message);
+        } else {
+            res.json({
+                message: 'request successful',
+                success: true,
+                data: result[0]
+            });
+        }
+    });
+});
+
 //servicio para sumar las horas
 app.put('/putHours', function (req, res) {
     const {hours, date, typeHours, document} = req.body;
@@ -157,6 +209,7 @@ app.put('/putHours', function (req, res) {
         }
     });
 });
+
 
 //servicio para añadir lugares
 app.post('/postLugares', function (request, response){
@@ -196,6 +249,21 @@ app.get('/getStudents', function (req, res) {
 
 //servicio para devolver los lugares 
 app.get('/getLugares', function (req, res) {
+    conexion.query('SELECT * FROM lugares_disponibles', (err, result, field) => {
+        if (err) {
+            console.error(err.message);
+        } else {
+            res.json({
+                message: 'request successful',
+                success: true,
+                data: result
+            });
+        }
+    });
+});
+
+//servicio para devolver los lugares en estudiante 
+app.get('/getLugaresEs', function (req, res) {
     conexion.query('SELECT * FROM lugares_disponibles', (err, result, field) => {
         if (err) {
             console.error(err.message);

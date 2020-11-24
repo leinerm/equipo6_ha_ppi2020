@@ -21,8 +21,8 @@ app.use(cors({
 const port = 5057;
 const model_master = {
     name: 'Jairo mendoza',
-    doc: '10000879769',
-    type_user: 'master'
+    doc: '321',
+    type_user: 'encargado'
 };
 
 //servicio para obtener informacion del maestro
@@ -37,9 +37,9 @@ app.get('/getMaster', function(request, response){
 });
 
 const model_student = {
-    name: 'Andres ',
-    doc: '1000294875',
-    type_user: 'student'
+    name: 'pepito perez ',
+    doc: '1216',
+    type_user: 'estudiante'
 };
 
 //servicio para obtener informacion del estudiante

@@ -48,7 +48,7 @@ return(
 <div className="btn_l_es">
                {
                    lugares.map((lugares, index) => (
-                       <Button variant="outline-primary" key={index} size="lg" block >{lugares.nombre}</Button>
+                       <Button variant="outline-primary" key={index} size="lg" block onClick={()=>mostrarAlerta()} >{lugares.nombre}</Button>
                    ))
                }
            </div>
